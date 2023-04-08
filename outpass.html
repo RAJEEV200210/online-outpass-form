@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Online Outpass Application Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="form-container">
+      <h1>Online Outpass Application Form</h1>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="reason">Reason for Outpass:</label>
+        <select id="reason" name="reason">
+          <option value="medical">Medical</option>
+          <option value="family">Family emergency</option>
+          <option value="personal">Personal</option>
+        </select>
+
+        <label for="departure">Departure Date:</label>
+        <input type="date" id="departure" name="departure" required>
+
+        <label for="return">Return Date:</label>
+        <input type="date" id="return" name="return" required>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>

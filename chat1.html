@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Himadri Boys Hostel Outpass Form</title>
+    <style>
+        body {
+            background-image: url('https://example.com/background.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            background-color: white;
+            padding: 20px;
+            width: 500px;
+            margin: 0 auto;
+            border-radius: 5px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="date"], input[type="tel"] {
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 100%;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="submit.php">
+        <label for="date">Date:</label>
+        <input type="date" name="date" required>
+        <label for="name">Name:</label>
+        <input type="text" name="name" required>
+        <label for="rollno">Roll No:</label>
+        <input type="text" name="rollno" required>
+        <label for="roomno">Room No:</label>
+        <input type="text" name="roomno" required>
+        <label for="mobile">Mobile No:</label>
+        <input type="tel" name="mobile" required>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

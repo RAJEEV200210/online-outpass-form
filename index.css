@@ -1,0 +1,52 @@
+body {
+    margin:0;
+    background: url(background.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    }
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(203, 201, 239);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #9807f9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #0556f6;
+    color: white;
+  }
+  .topnav .title_name{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+  }
+  .topnav div.right-elem {
+    float: right;
+  }
+
+  .topnav div.auth{
+    float: right;
+  }
+
+  /* form of outpass filling */
+  .outpass-form {
+    width: 300px;
+    margin: auto;
+  }
+
+  .outpass-form{
+    font-size: 20px;
+  }
+  
